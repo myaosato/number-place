@@ -7,7 +7,9 @@
            :fullfilled-p
            :set-number
            :unset-number
-           :can-set-number))
+           :can-set-number
+           :read-to-board
+           :write-from-board))
 (in-package :number-place/board)
 
 (defstruct board
