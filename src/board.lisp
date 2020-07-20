@@ -1,6 +1,7 @@
 (defpackage number-place/board
   (:use :cl)
   (:export :board
+           :make-board
            :is-empty
            :find-empty
            :fullfilled-p
