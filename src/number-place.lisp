@@ -1,6 +1,6 @@
 (defpackage number-place/number-place
   (:use :cl :number-place/board)
-  (:export))
+  (:export :main))
 (in-package :number-place/number-place)
 
 (defun dfs (board)
